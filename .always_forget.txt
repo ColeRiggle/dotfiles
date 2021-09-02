@@ -1,1 +1,5 @@
+# Unzip a file and print result to terminal
+unzip -p <filename>
 
+# Search w/ grep for a term within the output of the LHS
+unzipe -p <filename> | grep <term>
