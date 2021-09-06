@@ -6,3 +6,31 @@ unzip -p <filename> | grep <term>
 
 # Ignore capitalization
 grep -i <term>
+
+# Unpack file
+tar -xvzf <filename>
+
+# Move all files from a subdirectory to the current directory
+mv <subdir>/* .
+
+# Copy all files from a subdirectory to a specicified path
+cp <subdir>/* <path>
+
+# Remove a series of files
+rm -rf <directory> ... <filesname_1> ... <filename_x>
+
+## GIT
+
+# Remove files created by git
+rm -rf .git/ .gitignore
+
+# Check git status
+git status
+
+## PYTHON
+
+# Create a virtual environment in the project's root directory
+python3 -m venv env
+
+# Activate virtual enviornment (every time a new shell is started)
+source env/bin/activate
